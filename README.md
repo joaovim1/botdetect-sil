@@ -14,8 +14,6 @@
 - **Font Awesome** para ícones no layout.
 
 ## Estrutura do Projeto
-
-
 ├── webapp/
 │   ├── css/
 │   │   └── style.css
