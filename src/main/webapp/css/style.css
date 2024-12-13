@@ -1,0 +1,135 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; 
+}
+
+.images {
+	text-align: center;
+	align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+ 
+     
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    
+    
+    margin-left: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-group i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.input-group input {
+    width: 100%;  /* Garantir que o input ocupe toda a largura */
+padding: 10px 10px 10px 30px; /* Ajustar padding para o ícone */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.validationDiv {
+    margin-bottom: 15px;
+}
+
+.captcha-container {
+    margin: 10px 0;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+    
+}
+
+.captcha-container img {
+    
+    margin-top: 10px;
+    border-radius: 4px;
+    max-width: 100%; /* Garantir que a imagem não ultrapasse os limites */
+}
+
+.captcha-container input {
+    margin-top: 10px;
+    width: 80%;  /* Ajustar largura do campo do captcha */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    margin-right: 70px;
+    
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #428bca;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.btn:hover {
+    background-color: #357ebd;
+}
+
+.btn2, .btn3, .btn-back {
+    width: 100%;
+    padding: 10px;
+    background-color: #428bca;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.btn2:hover, .btn3:hover, .btn-back:hover  {
+	background-color: #357ebd;
+}

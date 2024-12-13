@@ -1,0 +1,144 @@
+@charset "UTF-8";
+ /* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.images {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.images img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.success-message p {
+    color: #4CAF50;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.success-message p strong {
+    color: #007bff;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #428bca;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #357ebd;
+}
+
+.btn2 {
+    width: 100%;
+    padding: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn2:hover {
+    background-color: #c0392b;
+}
+
+/* Estilo do Painel de Itens */
+.panel {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.panel h3 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.input-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-item input {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.input-item input[type="text"] {
+    margin-right: 10px;
+}
+
+.input-item button {
+    width: 45%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.input-item button:hover {
+    background-color: #218838;
+}
+
+.item-list {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.item-list li {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
