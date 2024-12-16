@@ -1,13 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="botDetect" uri="https://captcha.com/java/jsp"%>
 <%@ page import="com.captcha.botdetect.web.servlet.Captcha" %>
+<%@ page import="java.awt.datatransfer.*" %>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sil Tecnologia Captcha</title>
-
+	
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="icon" href="image/images.jpeg" sizes="192x192"/>
@@ -75,7 +76,7 @@
                 } else {
                     // Caso o CAPTCHA seja válido, valida o login
                     // Exemplo de validação de login simples, substitua com sua lógica de autenticação
-                    if ("validUser".equals(user) && "validPassword".equals(password)) {
+                    if ("admin".equals(user) && "admin".equals(password)) {
                         // Se o login for bem-sucedido, cria uma sessão para o usuário
                         session.setAttribute("loggedIn", true);
                         // Redireciona para a página de sucesso

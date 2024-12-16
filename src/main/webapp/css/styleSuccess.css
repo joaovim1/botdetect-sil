@@ -142,3 +142,29 @@ h2 {
     display: flex;
     justify-content: space-between;
 }
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-group i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.input-group input {
+    width: 100%;  /* Garantir que o input ocupe toda a largura */
+padding: 10px 10px 10px 30px; /* Ajustar padding para o ícone */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
