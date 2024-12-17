@@ -44,9 +44,11 @@
                 <botDetect:captcha id="loginCaptcha" 
                     userInputID="captchaCode"
                     codeLength="4"
+                   	imageStyle="Overlap"
                     imageWidth="200"
                     codeStyle="ALPHA"
-                    locale="pt-BR" />
+                    locale="pt-BR"
+                     />
                 <input id="captchaCode" type="text" name="captchaCode" placeholder="Insira o código da imagem" required />
             </div>
 
@@ -61,11 +63,17 @@
             String captchaCode = request.getParameter("captchaCode");
             String user = request.getParameter("user");
             String password = request.getParameter("password");
+            
 
             if (captchaCode != null && !captchaCode.isEmpty()) {
                 // Carregar o CAPTCHA gerado
                 Captcha captcha = Captcha.load(request, "loginCaptcha");
+                
                 captcha.setUserInputID("captchaCode");
+          
+
+                
+            
 
                 // Verifica se o código inserido é válido
                 boolean isCaptchaValid = captcha.validate(captchaCode);
@@ -87,6 +95,7 @@
                     }
                 }
             }
+
         %>
     </div>
 </body>
