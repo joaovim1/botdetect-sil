@@ -7,5 +7,6 @@
 	<classpathentry exported="true" kind="lib" path="/home/nb050/apache-tomcat-9.0.95/lib/jsp-api.jar"/>
 	<classpathentry exported="true" kind="lib" path="/home/nb050/apache-tomcat-9.0.95/lib/servlet-api.jar"/>
 	<classpathentry exported="true" kind="lib" path="src/main/webapp/WEB-INF/lib/h2-2.3.232.jar"/>
+	<classpathentry kind="lib" path="/home/nb050/Downloads/h2-2024-08-11/h2/bin/h2-2.3.232.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

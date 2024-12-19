@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criar Cadastro</title>
-
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-
     <!-- CSS -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
@@ -21,7 +19,7 @@
             <!-- Campo de Nome -->
             <div class="input-group">
                 <i class="fas fa-user"></i>
-                <input id="user" type="text" name="user" placeholder="Usuário" required />
+                <input id="nome" type="text" name="nome" placeholder="Usuário" required />
             </div>
             
             <!-- Campo de E-mail -->
